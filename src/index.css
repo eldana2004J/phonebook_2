@@ -1,13 +1,58 @@
-body {
+h1 {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  color: #fff;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.red {
+  background-color: red;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.green {
+  background-color: green;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+*,
+a:focus {
+  outline: none !important;
+}
+.wrapper {
+  background-color: hsl(269deg 100% 71%);
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+.btn-logout {
+  margin-bottom: 25px;
+  padding: 10px 32px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: rgb(255, 90, 68);
+  color: white;
+}
+.box {
+  text-align: center;
+}
+.title-login {
+  font-size: 35px;
+}
+.link-register {
+  font-size: 20px;
+  color: #ff7a27;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.h1 {
+  font-size: 45px;
+  color: rgb(17, 18, 18);
 }

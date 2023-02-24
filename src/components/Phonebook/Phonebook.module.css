@@ -1,0 +1,8 @@
+.wrapper {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  border: 4px solid rgb(0, 0, 0);
+  background-color: hsl(269deg 100% 71%);
+  margin-bottom: 20px;
+}
